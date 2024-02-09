@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCRIÇÕES - SENAI</title>
+</head>
+    <header>
+        <div class="top" style="height: 100%; overflow: hidden;" >
+
+            <img src="https://imgur.com/O3DYXms.png" alt="codigo html" width="130px">
+        </div>
+        <link rel="stylesheet" type="text/css"   href="_css/principal.css">
+            <link rel="stylesheet" type="text/css" href="_css/overlay.css">
+            <link rel="stylesheet" type="text/css" href="_css/nav.css">
+            <link rel="stylesheet" type="text/css" href="_css/forms.css">
+            <link rel="stylesheet" type="text/css" href="_css/link_a.css">
+
+
+   
+            <nav class="menu">
+      
+                <ul>
+                    <li><a href="PRINCIPAL.html" title="Home" class="ativo">INICIO</a></li>
+                    <li><a href="SOBRE.html" title="Sobre">SOBRE</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" title="Cursos">CURSOS</a>
+        
+                        <div class="dropdown-menu">
+                            <a href="CURSOSQUALI.html">QUALIFICAÇÃO</a>
+                            <a href="CURSOS.html">TÉCNICO</a>
+                        </div>
+                    </li>
+                    <li><a href="INSCRICAO.html" title="INSCRIÇÕES">INSCRIÇÕES</a></li>
+                    <li><a href="CONTATO.html" title="contato">CONTATO</a></li>
+                </ul>
+            </nav>
+
+</header><br>
+
+<body>
+
+    <article>
+   <h1>FORMULÁRIO DE INSCRIÇÃO</h1>
+<hr color="00000">
+
+    <forms>
+
+        </div>
+
+        <div class="container_form">
+
+            <h4 style="text-align: left;" >ATENÇÃO:</h4> 
+            <p> Confira se suas informações estão corretas antes de envia-las</p>
+            <p>As solicitações com * são obrigatórias</p>
+            <p>Os documentos solicitados devem ser legíveis e estar no formato PDF</p>
+            <h4 style="text-align: center;" >DADOS PESSOAIS</h4> 
+
+
+            <form class="form" action="#" method="post">
+                
+                <div class="form_grupo">
+                    <label for="nome" class="form_label"><b>Nome Completo*</b></label>
+                    <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="e-mail" class="form_label"><b>E-mail*</b></label>
+                    <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="datanascimento" class="form_label"><b>Data de Nascimento*</b></label>
+                    <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required>
+                </div>        
+
+                <div class="form_grupo">
+                    
+                    <label for="tipocurso" class="text"><b>Gênero</b></label>
+                    <select name="tipocurso" class="dropdowncur" required >
+                        
+                        <option selected disabled class="form_select_option" value="">Selecione</option>
+                        <option value="mas" class="form_select_option">Masculino</option>
+                        <option value="fem" class="form_select_option">Feminino</option>
+                        <option value="nob" class="form_select_option">Não-Binário</option>
+                        <option value="noi" class="form_select_option">Não Informar</option>
+
+                    </select>
+
+                </div>
+
+                <div class="form_grupo">
+                    <label for="tel" class="form_label"><b>Telefone*</b></label>
+                    <input type="text" name="tel" class="form_input" id="nome" placeholder="(xx) x xxxx-xxxx" maxlength="11" required>
+                </div>
+
+
+                <h4 style="text-align: center;" >SELECIONAR CURSO</h4> 
+
+                <div class="form_grupo">
+                    
+                    <label for="genero" class="text"><b>Cursos Técnicos</b></label>
+                    <select name="genero" class="dropdowncur" >
+                        
+                        <option selected disabled class="form_select_option" value="">Selecione</option>
+                        <option value="infor" class="form_select_option">Informática para a internet</option>
+                        <option value="adm" class="form_select_option">Administração</option>
+                        <option value="logis" class="form_select_option">Logística</option>
+
+                    </select><br>
+                        
+                    <div class="form_grupo">
+                    
+                        <label for="tipocurso" class="text"><b>Cursos de Qualificação (Gratuitos)</b></label>
+                        <select name="tipocurso" class="dropdowncur" >
+                            
+                            <option selected disabled class="form_select_option" value="">Selecione</option>
+                            <option value="RH" class="form_select_option">Assistente de Recusos Humanos - semipresencial</option>
+                            <option value="Qualificacao" class="form_select_option">Assistente Administrativo - semipresencial</option>
+                            <option value="Qualificacao" class="form_select_option">Operador de Computador</option>
+                            <option value="Qualificacao" class="form_select_option">Torneiro Mecânico</option>
+                            <option value="Qualificacao" class="form_select_option">Padeiro</option>
+                            <option value="Qualificacao" class="form_select_option">Pedreiro de Revestimento</option>
+                            <option value="Qualificacao" class="form_select_option">Desenhista de Produtos Gráficos - Web designer</option>
+
+
+
+                        </select><br>
+
+                        <div class="form_grupo">
+                    
+                            <label for="tipocurso" class="text"><b>Cursos de Qualificação (Pagos)</b></label>
+                            <select name="tipocurso" class="dropdowncur" >
+                                
+                                <option selected disabled class="form_select_option" value="">Selecione</option>
+                                <option value="RH" class="form_select_option">Soldador no Processo Eletrodo Revestido</option>
+                                <option value="Qualificacao" class="form_select_option">Mecânico de Motocicleta</option>
+                                <option value="Qualificacao" class="form_select_option">Confeiteiro</option>
+                                <option value="Qualificacao" class="form_select_option">Confeccionador de Bolsas em Tecido</option>
+                                <option value="Qualificacao" class="form_select_option">Excel Avançado</option>
+                                <option value="Qualificacao" class="form_select_option">Almoxarife</option>
+                                <option value="Qualificacao" class="form_select_option">Preparação e Decoração de Bolos</option>
+                            </select>
+                </select>
+
+                </div>
+
+                <h4 style="text-align: center;" >DOCUMENTOS</h4> 
+
+                <label for="file-example"><b>RG</b></label><br>
+                <input type="file" id="file-example" required><br><br>
+            
+                <label for="file-example"><b>CPF</b></label><br>
+                <input type="file" id="file-example" required><br><br>
+            
+                <label for="file-example"><b>COMPROVANTE DE RESIDÊNCIA</b></label><br>
+                <input type="file" id="file-example" required><br><br>
+            
+                <label for="file-example"><b>HISTÓRICO ESCOLAR</b></label><br>
+                <input type="file" id="file-example" required><br><br>
+            
+                <label for="file-example"><b>FOTO 3X4</b></label><br>
+                <input type="file" id="file-example" required><br>
+            
+                <hr color="00000"><br>
+
+
+                <div class="termos">  
+                <input type="radio" id="radio-example" required>
+                <label for="radio-example">Confirmo que li e aceito as normas presentes no edital e me responsabilizo por todas as informações prestadas acima.</label><br><br><br>
+                </div>
+         
+
+
+                    <div class="submit">
+
+                      <input type="hidden" name="acao" value="enviar">
+                      <button type="submit" name="Submit" class="submit_btn" >Enviar</button>
+                    
+                    </div>
+            </form>
+        </div>
+    </forms>
+    </div><!--container_form-->
+
+    </body>
+</article><br>
+
+<div class="bottom">
+    <a>&copy; 2024 - Todos os direitos reservados</a>
+    <nav><br>
+        <ul>
+            <li><a href="https://www.senaibahia.com.br/wp-content/uploads/2022/07/Política-de-Privacidade-Sistema-FIEB-SENAI-BA-atualizada-em-08.07.2022.pdf">Termos de uso</a></li>
+            <li><a href="https://www.ap.senai.br/politica_privacidade.pdf">Política de privacidade</a></li>
+            <li><a href="SOBRE.html">Sobre nós</a></li>
+            <li><a href="CONTATO.html">Contato</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+</html>

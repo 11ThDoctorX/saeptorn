@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+.container{
+  display: flex;
+  justify-content: left;
+  padding: 60px;
+  padding-left: 10%;
+}
+
+
+.square{
+  width: 400px;
+	height: 430px;
+	background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #D9DBDF;
+  margin-left: 80px;
+}
+
+
+
+.mask{
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+}
+
+.container img{
+  width: 400px;
+  }
+
+.h1{
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+  
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+
+p{
+ text-align: justify; 
+ padding-left: 30px;
+ padding-right: 30px;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12px;
+ color: #747474;
+ line-height: 18px;
+}
+
+.button1 {
+    background-color: #B50000;
+    color: white;
+    width: 100px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'merriweather'; 
+}
+
+.button1:hover {
+  background-color: #be6060;
+}
+
+.button2 {
+  background-color: #9c9200;
+  color: white;
+  width: 100px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: 'merriweather'; 
+}
+
+.button2:hover {
+  background-color: #ceca06;
+}
+
+.button3 {
+  background-color: #203B40;
+  color: white;
+  width: 100px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: 'merriweather'; 
+}
+
+.button3:hover {
+  background-color: #7ea5ac;
+}
+
+.fonta h1 {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+
+.fonta {
+  background-image: url(https://imgur.com/kw7Y6dr.png);
+}
+
+

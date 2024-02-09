@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+footer .espaco {
+    padding-top: 350px;
+}
+
+.coluna {
+    width: 33%;
+    padding-left: 100px;
+    color: #000000;
+
+}
+
+.fotocur {
+    max-width: 100%;
+
+
+}
+
+.fotocons {
+    width: auto;
+    padding-left: 480px;
+
+}
+
+
+
+
+h1 {
+
+    width: auto;
+    padding-inline: 580px;
+
+}
+
+
+.corh2{
+    width: auto;
+    text-align: center;
+    background-color: #000000;
+}

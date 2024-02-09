@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "fontezinhas";
+    src: url();
+}
+
+
+body {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0;
+}
+
+
+section {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: rgb(11, 84, 168);
+    text-shadow: 1px rgb(red, green, blue);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    text-shadow: 1px rgb(red, green, blue);
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+
+
+h3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: rgb(11, 84, 168);
+    text-shadow: 1px rgb(red, green, blue);
+    padding-left: 570px;
+    margin-bottom: 0px;
+
+}
+
+h4 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 1px rgb(red, green, blue);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+
+}
+
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 1px rgb(red, green, blue);
+    text-align: justify;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+
+}
+
+
+a {
+
+    padding-right: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+
+.bottom li a {
+
+    color: azure;
+}
+
+
+.imgfooter {
+    align-content: center;
+    padding-left: 12%;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: rgba(65, 95, 179, 0.35) 0px 5px 15px;
+    padding-top: 50px;
+}
+
+.item {
+    animation: animate 80s alternate linear infinite;
+}
+
+.container:hover .item {
+    animation-play-state: paused;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1000%, 0, 0);
+    }
+}
+
+.wrapper {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+}
